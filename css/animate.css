@@ -1,0 +1,271 @@
+.two .product-one .product-bg-box {
+  -moz-transform: translateY(-500px);
+  -webkit-transform: translateY(-500px);
+  -ms-transform: translateY(-500px);
+  transform: translateY(-500px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.2s, opacity 1s 0.5s;
+  -moz-transition: -moz-transform 0.5s 0.2s, opacity 1s 0.5s;
+  -ms-transition: -ms-transform 0.5s 0.2s, opacity 1s 0.5s;
+  transition: transform 0.5s 0.2s, opacity 1s 0.5s;
+}
+.two .product-one .product-img {
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.75s, opacity 1s 0.75s;
+  -moz-transition: -moz-transform 0.5s 0.75s, opacity 1s 0.75s;
+  -ms-transition: -ms-transform 0.5s 0.75s, opacity 1s 0.75s;
+  transition: transform 0.5s 0.75s, opacity 1s 0.75s;
+}
+.two .product-one .product-bg {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.5s, opacity 1s 0.5s;
+  -moz-transition: -moz-transform 0.5s 0.5s, opacity 1s 0.5s;
+  -ms-transition: -ms-transform 0.5s 0.5s, opacity 1s 0.5s;
+  transition: transform 0.5s 0.5s, opacity 1s 0.5s;
+}
+.two .product-one .product-content {
+  -moz-transform: translateY(500px);
+  -webkit-transform: translateY(500px);
+  -ms-transform: translateY(500px);
+  transform: translateY(500px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 1s, opacity 1s 1s;
+  -moz-transition: -moz-transform 0.5s 1s, opacity 1s 1s;
+  -ms-transition: -ms-transform 0.5s 1s, opacity 1s 1s;
+  transition: transform 0.5s 1s, opacity 1s 1s;
+}
+.two .product-one-box.swiper-slide-active .product-bg-box {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.two .product-one-box.swiper-slide-active .product-img {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+.two .product-one-box.swiper-slide-active .product-bg {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+.two .product-one-box.swiper-slide-active .product-content {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.two .product-two .circle-continar1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s 0.2s;
+  -moz-transition: opacity 0.5s 0.2s;
+  -ms-transition: opacity 0.5s 0.2s;
+  transition: opacity 0.5s 0.2s;
+}
+.two .product-two .product-img .physics-isolation,
+.two .product-two .product-img .software-encryption {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s 0.5s;
+  -moz-transition: opacity 0.5s 0.5s;
+  -ms-transition: opacity 0.5s 0.5s;
+  transition: opacity 0.5s 0.5s;
+}
+.two .product-two .product-img .physics-icon,
+.two .product-two .product-img .software-icon {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s 0.7s;
+  -moz-transition: opacity 0.5s 0.7s;
+  -ms-transition: opacity 0.5s 0.7s;
+  transition: opacity 0.5s 0.7s;
+}
+.two .product-two .pro-msg {
+  -moz-transform: translateY(500px);
+  -webkit-transform: translateY(500px);
+  -ms-transform: translateY(500px);
+  transform: translateY(500px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -moz-transition: -moz-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -ms-transition: -ms-transform 0.5s 0.2s, opacity 1s 0.2s;
+  transition: transform 0.5s 0.2s, opacity 1s 0.2s;
+}
+.two .product-two .pro-msg .pro-left,
+.two .product-two .pro-msg .pro-right {
+  opacity: 0;
+  -webkit-transition: opacity 1s 0.7s;
+  -moz-transition: opacity 1s 0.7s;
+  -ms-transition: opacity 1s 0.7s;
+  transition: opacity 1s 0.7s;
+}
+.two .product-two.swiper-slide-active .circle-continar1 {
+  opacity: 1;
+}
+.two .product-two.swiper-slide-active .product-img .physics-isolation,
+.two .product-two.swiper-slide-active .product-img .physics-icon,
+.two .product-two.swiper-slide-active .product-img .software-icon,
+.two .product-two.swiper-slide-active .product-img .software-encryption {
+  opacity: 1;
+}
+.two .product-two.swiper-slide-active .pro-msg {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.two .product-two.swiper-slide-active .pro-msg .pro-left,
+.two .product-two.swiper-slide-active .pro-msg .pro-right {
+  opacity: 1;
+}
+.two .product-three .product-describe {
+  opacity: 0;
+  -webkit-transition: opacity 1s 0.5s;
+  -moz-transition: opacity 1s 0.5s;
+  -ms-transition: opacity 1s 0.5s;
+  transition: opacity 1s 0.5s;
+}
+.two .product-three .product3-img {
+  -moz-transform: translateY(500px);
+  -webkit-transform: translateY(500px);
+  -ms-transform: translateY(500px);
+  transform: translateY(500px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -moz-transition: -moz-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -ms-transition: -ms-transform 0.5s 0.2s, opacity 1s 0.2s;
+  transition: transform 0.5s 0.2s, opacity 1s 0.2s;
+}
+.two .product-three.swiper-slide-active .product-describe {
+  opacity: 1;
+}
+.two .product-three.swiper-slide-active .product3-img {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.two .product-four .product4-continar .product4-img {
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -moz-transition: -moz-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -ms-transition: -ms-transform 0.5s 0.2s, opacity 1s 0.2s;
+  transition: transform 0.5s 0.2s, opacity 1s 0.2s;
+}
+.two .product-four .product4-continar .product4-content {
+  opacity: 0;
+  -webkit-transition: opacity 1s 0.5s;
+  -moz-transition: opacity 1s 0.5s;
+  -ms-transition: opacity 1s 0.5s;
+  transition: opacity 1s 0.5s;
+}
+.two .product-four.swiper-slide-active .product4-continar .product4-img {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+.two .product-four.swiper-slide-active .product4-continar .product4-content {
+  opacity: 1;
+}
+.two .product-five .product5-top ul li strong {
+  -moz-transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transition: -webkit-transform 1s 0.2s;
+  -moz-transition: -moz-transform 1s 0.2s;
+  -ms-transition: -ms-transform 1s 0.2s;
+  transition: transform 1s 0.2s;
+}
+.two .product-five .product5-img {
+  -moz-transform: translateY(500px);
+  -webkit-transform: translateY(500px);
+  -ms-transform: translateY(500px);
+  transform: translateY(500px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -moz-transition: -moz-transform 0.5s 0.2s, opacity 1s 0.2s;
+  -ms-transition: -ms-transform 0.5s 0.2s, opacity 1s 0.2s;
+  transition: transform 0.5s 0.2s, opacity 1s 0.2s;
+}
+.two .product-five.swiper-slide-active .product5-top ul li strong {
+  -moz-transform: rotateY(0);
+  -webkit-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  transform: rotateY(0);
+}
+.two .product-five.swiper-slide-active .product5-img {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.three .box-content .text-describe {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.2s, opacity 0.5s;
+  -moz-transition: height 0.2s, opacity 0.5s;
+  -ms-transition: height 0.2s, opacity 0.5s;
+  transition: height 0.2s, opacity 0.5s;
+}
+.three .box-content .text-box {
+  -webkit-transition: margin-top 0.2s;
+  -moz-transition: margin-top 0.2s;
+  -ms-transition: margin-top 0.2s;
+  transition: margin-top 0.2s;
+}
+.three .box-content:hover .text-describe {
+  height: 87px;
+  opacity: 1;
+}
+.four .drive-img,
+.four .download-box {
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s 0.2s, opacity 1s 0.2s, background 0.8s;
+  -moz-transition: -moz-transform 0.5s 0.2s, opacity 1s 0.2s, background 0.8s;
+  -ms-transition: -ms-transform 0.5s 0.2s, opacity 1s 0.2s, background 0.8s;
+  transition: transform 0.5s 0.2s, opacity 1s 0.2s, background .8s;
+}
+.four .drive-img {
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.four .download-box {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.four.active .drive-img,
+.four.active .download-box {
+  opacity: 1;
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
