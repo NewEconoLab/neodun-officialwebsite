@@ -72,7 +72,7 @@ header .right .language-toggle span {
   font-weight: 100;
 }
 .continar .one .one-text {
-  background: url(../img/banner1.jpg) no-repeat center;
+  background: url(../img/banner1.jpg) no-repeat bottom;
   background-size: contain;
   height: 730px;
   margin: 0 auto;
@@ -108,7 +108,7 @@ header .right .language-toggle span {
   cursor: pointer;
 }
 .continar .one .one-text.two-text {
-  background: url(../img/banner2.jpg) no-repeat center;
+  background: url(../img/banner2.jpg) no-repeat bottom;
   background-size: contain;
   color: #333;
 }
