@@ -1,9 +1,14 @@
+
 header{
     width: 100%;
     height:50px;
     background: #333;
     color: #fff;
     line-height: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 3;
     .left{
         width: 150px;
         height:37px;
@@ -68,6 +73,7 @@ header{
 .continar{
     width:100%;
     height:auto;
+    padding-top: 50px;
     .continar-box{
         width: 100%;
         height:730px;
@@ -82,7 +88,7 @@ header{
             height: 730px;
             margin: 0 auto;
             color:#fff;
-            font-size:24px;
+            font-size:20px;
             text-align: center;
             background-color: #1F1F1F;
             .text-title{
@@ -99,6 +105,9 @@ header{
                     text-align: left;
                     letter-spacing: 3.75px;
                 }
+            }
+            .text-msg{
+                font-size: 24px;
             }
             .text-other{
                 margin: 0 auto;
@@ -155,6 +164,7 @@ header{
             position: absolute;
             top:80px;
             width:100%;
+            z-index: 2;
         }
         .product-one{
             padding-top: 209px;
@@ -592,8 +602,8 @@ header{
                         height: 74px;
                     }
                     .security{
-                        width:105px;
-                        height: 111px;
+                        width: 67px;
+                        height: 76px;
                     }
                     .verification{
                         width:50px;

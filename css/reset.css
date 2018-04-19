@@ -46,10 +46,19 @@ html,body {
 	min-height: 100%;
 
 }
+@font-face {
+	font-family: 'NotoSansHans-Light';
+	src: url('../font/NotoSansHans-Light.ttf');
+	src:
+		url('../font/NotoSansHans-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
 	font-size: 12px;
 	min-width: 1090px;
+	font-family: 'NotoSansHans-Light';
 }
 
 p {

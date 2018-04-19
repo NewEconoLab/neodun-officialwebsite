@@ -15,6 +15,8 @@ var app = {
         this.onNavClick();
         //滚动事件
         this.onScrollEvent();
+        //
+        this.onScrollNav();
     },
 
     startBanner: function ()
@@ -91,7 +93,7 @@ var app = {
             //获取元素id
             var elementId = $(this).data("boxid");
             //获取元素高度
-            var elementTop = $('#' + elementId).offset().top;
+            var elementTop = $('#' + elementId).offset().top - 50;
 
             //清楚所有的active
             $("#nav").find('li').removeClass('active');
@@ -102,13 +104,46 @@ var app = {
     },
     onScrollEvent: function ()
     {
+        var theHeight = $('#download').offset().top - document.documentElement.clientHeight + 300;
         $(document).on('scroll', function ()
         {
-            var theHeight = $('#download').offset().top - document.documentElement.clientHeight + 300;
             if ($(document).scrollTop() >= theHeight)
             {
                 $('#download').addClass('active');
             }
+        })
+    },
+    onScrollNav: function ()
+    {
+        let bannerHeight = $('#banner-swiper').offset().top - document.documentElement.clientHeight + 300;
+        let productHeight = $('#product-swiper').offset().top - document.documentElement.clientHeight + 300;
+        let featureHeight = $('#feature').offset().top - document.documentElement.clientHeight + 300;
+        let downloadHeight = $('#download').offset().top - document.documentElement.clientHeight + 300;
+        let faqHeight = $('#faq').offset().top - document.documentElement.clientHeight + 300;
+        $(document).on('scroll', function ()
+        {
+            if ($(document).scrollTop() >= faqHeight)
+            {
+                $("#nav").find('li').removeClass('active');
+                $("ul li[data-boxid=faq]").addClass('active');
+            }else if ($(document).scrollTop() >= downloadHeight)
+            {
+                $("#nav").find('li').removeClass('active');
+                $("ul li[data-boxid=download]").addClass('active');
+            }else if ($(document).scrollTop() >= featureHeight)
+            {
+                $("#nav").find('li').removeClass('active');
+                $("ul li[data-boxid=feature]").addClass('active');
+            }else if ($(document).scrollTop() >= productHeight)
+            {
+                $("#nav").find('li').removeClass('active');
+                $("ul li[data-boxid=product-swiper]").addClass('active');
+            }else if ($(document).scrollTop() >= bannerHeight)
+            {
+                $("#nav").find('li').removeClass('active');
+                $("ul li[data-boxid=banner-swiper]").addClass('active');
+            }
+
         })
     }
 }
