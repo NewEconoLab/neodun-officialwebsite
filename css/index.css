@@ -7,7 +7,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 3;
+  z-index: 11;
+  min-width: 880px;
 }
 header .left {
   width: 150px;
@@ -753,6 +754,7 @@ header .right .language-toggle span {
   margin-top: 30px;
   border: 1px solid #FFFFFF;
   border-radius: 1px;
+  position: relative;
 }
 .continar .five .faq-list ul {
   height: 34px;
