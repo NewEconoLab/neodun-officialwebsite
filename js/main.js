@@ -23,7 +23,7 @@ var app = {
     {
         this.bannerSwiper = new Swiper('#banner-swiper', {
             autoplay: {
-                delay: 4000,
+                delay: 10000,
             },//可选选项，自动滑动
             loop: true,
             pagination: {
@@ -36,7 +36,7 @@ var app = {
     {
         this.productSwiper = new Swiper('#product-swiper', {
             autoplay: {
-                delay: 4000,//4秒切换一次
+                delay: 20000,//20秒切换一次
             },//可选选项，自动滑动
             loop: true,
             pagination: {
@@ -151,6 +151,5 @@ var app = {
 
 $(function ()
 {
-
     app.init();
 })
