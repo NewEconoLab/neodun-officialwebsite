@@ -11,7 +11,7 @@ header {
   min-width: 880px;
 }
 header .left {
-  width: 150px;
+  width: 167px;
   height: 37px;
   float: left;
   margin-left: 50px;
@@ -843,7 +843,7 @@ footer .footer-continar .logo a {
   height: inherit;
 }
 footer .footer-continar .logo a img {
-  width: 150px;
+  width: 167px;
   height: 37px;
   margin-top: 50px;
 }
